@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle language-tablegen",
+        "command": "language-tablegen:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "language-tablegen",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "language-tablegen:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
